@@ -1,0 +1,11 @@
+/* LG Colors */
+$primary-color: #91C43F;
+$secondary-color: #58595B;
+
+.lg-warning, .lg-error  {
+  text-align: center;
+  padding: 10px;
+  margin: 20px 0;
+  background-color: red;
+  color: #FFF;
+}

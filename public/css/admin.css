@@ -1,0 +1,114 @@
+body.wp-admin #wpbody #linkgreen-sites h2 {
+  font-size: 28px;
+  padding: 20px 0 10px;
+}
+body.wp-admin #wpbody #linkgreen-sites h3 {
+  font-size: 22px;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #CCC;
+}
+body.wp-admin #wpbody #linkgreen-sites h4 {
+  font-size: 18px;
+  line-height: 2em;
+  padding: 20px 0 10px;
+  margin: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites .inside {
+  padding: 40px 20px;
+  margin: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites code {
+  font-size: 16px;
+  padding: 10px;
+}
+body.wp-admin #wpbody #linkgreen-sites pre {
+  margin: 20px 0;
+}
+body.wp-admin #wpbody #linkgreen-sites ul {
+  margin: 10px 0 10px 30px;
+}
+body.wp-admin #wpbody #linkgreen-sites #post-body-content ul li {
+  list-style-type: disc;
+}
+body.wp-admin #wpbody #linkgreen-sites #post-body-content ol li {
+  line-height: 1.8em;
+}
+body.wp-admin #wpbody #linkgreen-sites ul li h4 {
+  padding-top: 30px;
+}
+body.wp-admin #wpbody #linkgreen-sites .row {
+  padding: 0 0 40px;
+}
+body.wp-admin #wpbody #linkgreen-sites .row:last-child {
+  padding: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites form tr {
+  padding: 20px 0;
+}
+body.wp-admin #wpbody #linkgreen-sites form tr {
+  padding: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites input[type=text] {
+  padding: 10px;
+  width: 100%;
+  margin: 10px 0;
+}
+body.wp-admin #wpbody #linkgreen-sites label h3 {
+  margin: 10px 0 0!important;
+  padding: 0;
+  font-size: 18px;
+  border-bottom: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites #postbox-container-1 .lg-logo {
+  width:200px;
+}
+body.wp-admin #wpbody #linkgreen-sites #postbox-container-1 h2 {
+  padding: 0!important;
+  margin: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites #postbox-container-1 ul {
+  margin-left: 0;
+}
+body.wp-admin #wpbody #linkgreen-sites #postbox-container-1 ul li {
+  list-style-type: none;
+}
+body.wp-admin #wpbody #linkgreen-sites #lgs-settings h4 {
+  padding: 10px 0;
+}
+body.wp-admin #wpbody #linkgreen-sites #lgs-settings form {
+  width: 50%;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fafafa;
+}
+body.wp-admin #wpbody #linkgreen-sites #lgs-settings form input[type="submit"] {
+  margin: 20px 0;
+}
+body.wp-admin #adminmenu .toplevel_page_linkgreen-site div.wp-menu-image:before {
+  background-image: url('/wp-content/plugins/linkgreen-site-integrations/img/linkgreen-icon-30x.png');
+  content: '';
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+body.wp-admin #wpbody .linkgreen-btn {
+  padding: 5px 10px;
+  border: none;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+body.wp-admin #wpbody .linkgreen-btn:hover {
+  background: #202020!important;
+}
+
+body.wp-admin #wpbody button.large {
+  font-size: 30px;
+  padding: 15px 30px;
+}
+
+body.wp-admin #wpbody button.small {
+  font-size: 12px;
+  padding: 10px;
+}

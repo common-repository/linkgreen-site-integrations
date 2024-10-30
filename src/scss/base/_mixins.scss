@@ -1,0 +1,56 @@
+// grid
+@mixin gridvalue($gridvalue) {
+	display: grid;
+	display: -ms-grid;
+	grid-template-columns: $gridvalue;
+	-ms-grid-columns: $gridvalue;
+}
+@mixin gridrow($gridrow) {
+	grid-row: $gridrow;
+	-ms-grid-row: $gridrow;
+}
+@mixin gridcol($gridcol) {
+	grid-column: $gridcol;
+	-ms-grid-column: $gridcol;
+}
+
+@mixin center-h2 {
+	h2 {
+		&:after {
+			margin: 0 auto;
+		}
+	}
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+  background-clip: padding-box;  /* stops bg color from leaking outside the border: */
+}
+
+@mixin transition($transition) {
+	-webkit-transition: all $transition ease;
+	-moz-transition: all $transition ease;
+	-o-transition: all $transition ease;
+	transition: all $transition ease;
+}
+
+@mixin transition-bg($transition) {
+	-webkit-transition: background $transition linear;
+	-moz-transition: background $transition linear;
+	-o-transition: background $transition linear;
+	transition: background $transition linear;
+}
+
+@mixin middle-shadow ($opacity) {
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,$opacity);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,$opacity);
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,$opacity);
+}
+
+@mixin cursor-property($property) {
+	cursor: -webkit-$property;
+	cursor: -moz-$property;
+	cursor: -o-$property;
+	cursor: $property;
+}
